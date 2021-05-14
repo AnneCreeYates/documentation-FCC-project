@@ -1,11 +1,27 @@
-html {
-  scroll-behavior: smooth;
-
-}
-
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  min-width: 250px;
+  margin: auto 2em;
+  line-height: 1.5;
+}
+
+#navbar {
+  position: fixed;
+  min-width: 290px;
+}
+
+header {
+  font-size: 25px;
+  font-style: oblique;
+  font-weight: bold;
+  margin: 1em auto;
+  text-align: center;
 }
