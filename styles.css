@@ -33,12 +33,13 @@ header {
   text-align: justify;
 }
 
-/* #navbar ul {
+#navbar ul {
   height: 88%;
   padding: 0;
   overflow-y: auto;
   overflow-x: hidden;
-} */
+
+}
 
 #navbar li {
   list-style: none;
@@ -78,4 +79,39 @@ code {
   border-radius: 45px;
   padding: 1.2em;
 
+}
+
+@media only screen and (max-width:715px) {
+  #navbar ul {
+    height: 114px;
+    line-height: 0.7em;
+    position: relative;
+    bottom: 2em;
+  }
+
+  #navbar {
+    position: sticky;
+    top: 0px;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid;
+    max-height: 200px;
+    z-index: 1;
+    background-color: #f7f5e9;
+
+  }
+
+#navbar header {
+  margin: 2em;
+}
+
+  #main-doc {
+    position: relative;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 2em;
+
+  }
 }
