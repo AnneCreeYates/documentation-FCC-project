@@ -11,11 +11,18 @@ body {
   min-width: 250px;
   margin: auto 2em;
   line-height: 1.5;
+  font-family: Arial, sans-serif;
+  background-color: #f2ecda;
 }
 
 #navbar {
   position: fixed;
   min-width: 290px;
+  width: 300px;
+  height: 100%;
+  border-right: solid;
+  border-radius: 0 95px;
+  border-width: thick;
 }
 
 header {
@@ -24,4 +31,30 @@ header {
   font-weight: bold;
   margin: 1em auto;
   text-align: center;
+}
+
+/* #navbar ul {
+  height: 88%;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+} */
+
+#navbar li {
+  list-style: none;
+  position: relative;
+  marding: 0 auto;
+  text-align: right;
+  width:100%;
+  padding: 0.5em;
+}
+
+#navbar a {
+  cursor: pointer;
+  display: grid;
+  text-decoration: none;
+  color: #381e52;
+  font-size: 1.2em;
+  padding-right: 1.4em;
+
 }
