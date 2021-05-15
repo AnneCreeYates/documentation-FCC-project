@@ -55,10 +55,27 @@ header {
   text-decoration: none;
   color: #381e52;
   font-size: 1.2em;
-  
+
 }
 
 #main-doc {
   position: absolute;
-  margin-left: 310px;
+  margin-left: 20em;
+  margin-right: 2em;
+  text-align: justify;
+}
+
+section li{
+  margin: 1.5em 2em;
+}
+
+code {
+  display: grid;
+  margin: 1.5em;
+  line-height: 1.6em;
+  background-color: #f7f5e9;
+  padding: 0.4em;
+  border-radius: 45px;
+  padding: 1.2em;
+
 }
