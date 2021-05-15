@@ -9,7 +9,7 @@ html,
 body {
   scroll-behavior: smooth;
   min-width: 250px;
-  margin: auto 2em;
+  margin: auto 1.5em;
   line-height: 1.5;
   font-family: Arial, sans-serif;
   background-color: #f2ecda;
@@ -17,8 +17,8 @@ body {
 
 #navbar {
   position: fixed;
-  min-width: 290px;
-  width: 300px;
+  min-width: 15em;
+  width: 90px;
   height: 100%;
   border-right: solid;
   border-radius: 0 95px;
@@ -30,7 +30,7 @@ header {
   font-style: oblique;
   font-weight: bold;
   margin: 1em auto;
-  text-align: center;
+  text-align: justify;
 }
 
 /* #navbar ul {
@@ -45,7 +45,7 @@ header {
   position: relative;
   marding: 0 auto;
   text-align: right;
-  width:100%;
+  width:80%;
   padding: 0.5em;
 }
 
@@ -55,6 +55,10 @@ header {
   text-decoration: none;
   color: #381e52;
   font-size: 1.2em;
-  padding-right: 1.4em;
+  
+}
 
+#main-doc {
+  position: absolute;
+  margin-left: 310px;
 }
